@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private String serviceKey = "d3dc215631bcb402c02a5e9c76c2236f91da50b1ae741fafcce70767a94eadcdeb12a8b54d360d92f764a";
     public static ArrayList<Post> tempAlbum = new ArrayList<>();
-    static boolean clickedOnItem = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         List<String> alb = new ArrayList<String>(); alb.add(necronID); alb.add(wah30ID);
         parsePhotos(alb, photo_count); //загрузка данных из вк
@@ -122,7 +123,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if (id == R.id.nav_fractions) {
-            // Handle the camera action
+            Intent b = new Intent(getApplicationContext(), Fractions.class);
+            startActivity(b);
+
         } else if (id == R.id.nav_save) {
 
         } else if (id == R.id.nav_home) {

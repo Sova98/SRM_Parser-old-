@@ -21,7 +21,6 @@ public class ProductActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         Intent intent = getIntent();
-        MainActivity.clickedOnItem = false;
 
         int id = intent.getExtras().getInt("id");
         Post post = MainActivity.tempAlbum.get(id);

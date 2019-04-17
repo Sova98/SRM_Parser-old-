@@ -8,4 +8,24 @@
     <string name="action_search">Settings</string>
     <integer name="com_vk_sdk_AppId">6898111</integer>
     <string name="title_activity_product"></string>
+    <string name="title_activity_fractions">Fractions</string>
+    <string-array name="fractions_names">
+        <item>Демоны Хаоса</item>
+        <item>Имперская Гвардия</item>
+        <item>Имперские Рыцари и Титаны</item>
+        <item>Империя Тау</item>
+        <item>Космические Волки</item>
+        <item>Космические Десантники</item>
+        <item>Космические Десантники Хаоса</item>
+        <item>Космические Орки</item>
+        <item>Кровавые Ангелы</item>
+        <item>Механикус</item>
+        <item>Некроны</item>
+        <item>Серые Рыцари и Инквизиторы</item>
+        <item>Темные Ангелы</item>
+        <item>Темные Эльдары </item>
+        <item>Тираниды и Генокульт</item>
+        <item>Эльдары</item>
+        <item>Темные Ангелы</item>
+    </string-array>
 </resources>
