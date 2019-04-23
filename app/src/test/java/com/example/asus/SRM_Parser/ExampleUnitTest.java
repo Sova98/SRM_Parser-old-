@@ -1,4 +1,4 @@
-package com.example.warhammer;
+package com.example.asus.SRM_Parser;
 
 import org.junit.Test;
 

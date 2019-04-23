@@ -1,4 +1,4 @@
-package com.example.warhammer;
+package com.example.asus.SRM_Parser;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.warhammer", appContext.getPackageName());
+        assertEquals("com.example.asus.SRM_Parser", appContext.getPackageName());
     }
 }
